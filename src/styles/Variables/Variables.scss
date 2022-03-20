@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+//Colors
+$blackColor: rgb(26,26,26);
+$whiteColor: #fff;
+$redColor: rgb(175,2,2);
+
+//Fonts
+$titleFont:Poppins(700);
+$bodyFont:Poppins(500);
+
+//Style
+@mixin buttonStyle($color, $fontSize){
+    width:200px;
+    height:40px;
+    background-color: $color;
+    border: none;
+    border-radius: 8px;
+    color: $whiteColor;
+    font-size: $fontSize;
+    cursor: pointer;
+}
